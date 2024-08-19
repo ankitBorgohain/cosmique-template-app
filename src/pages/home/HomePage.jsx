@@ -70,7 +70,7 @@ function HomePage() {
               width="50"
               height="50"
               fill="white"
-              class="card-icon bi bi-box-arrow-in-right"
+              className="card-icon bi bi-box-arrow-in-right"
               viewBox="0 0 16 16"
             >
               <path
@@ -104,7 +104,7 @@ function HomePage() {
               width="50"
               height="50"
               fill="white"
-              class="card-icon bi bi-person-vcard"
+              className="card-icon bi bi-person-vcard"
               viewBox="0 0 16 16"
             >
               <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5" />
@@ -132,6 +132,8 @@ function HomePage() {
             Check your <span>horoscope</span> now{" "}
           </h1>
         </div>
+        <div className="info-section-contianer">
+        <div className="info-section-image"></div>
         <div className="info-section-body">
           {/* features section  */}
           <div className="info-feature-section">
@@ -153,6 +155,8 @@ function HomePage() {
             </div>
           </div>
         </div>
+        </div>
+       
       </div>
     </main>
   );
