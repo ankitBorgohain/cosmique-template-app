@@ -1,0 +1,71 @@
+#root {
+  max-width: 1920px;
+  text-align: center;
+}
+
+.container{
+  background-image: url('./bgImage5.jpg');
+  min-height:90vh;
+  width: 100%;
+}
+
+
+
+.card-container{
+  @apply grid md:grid-cols-2 lg:grid-cols-4 gap-8 mx-8;
+  image-rendering: optimizeSpeed;
+  min-height: 65vh;
+}
+
+
+  
+
+.card{
+  @apply border my-5 lg:my-10 p-4 rounded-xl flex flex-col items-center justify-around;
+  @apply backdrop-blur-[2px];
+}
+
+.card:hover{
+  @apply backdrop-blur-[8px];
+}
+
+.card:hover .card-icon {
+  fill: #fe9720; 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
+.card-title{
+  @apply font-extrabold text-2xl text-gray-100;
+}
+
+.card:hover .card-title{
+  @apply text-[#e37e0a] ;
+}
+.card-text{
+  @apply text-xs font-thin text-gray-300
+}
+
+
+.info-section{
+  @apply mt-20 w-[100%] font-extrabold flex flex-col text-wrap;
+  @apply backdrop-blur-[2px];
+}
+
+.info-section-header{
+ @apply text-3xl lg:text-6xl text-white  ;
+}
+
+.info-section span{
+  @apply rounded-xl bg-gray-100 leading-10 text-3xl px-2 lg:text-6xl;
+  color: #de8b2c;
+  
+}
+
+.info-feature{
+  @apply flex text-white font-normal ;
+}
+.info-feature svg{
+  margin-right: 5px;
+}
+

@@ -1,0 +1,13 @@
+.header{
+
+    @apply bg-gradient-to-r from-primary to-secondary text-white p-1 w-[100%] h-16 flex items-center justify-between;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.1); 
+}
+
+.Navbar-logo{
+    @apply text-3xl font-extrabold italic;
+}
+
+.Navbar-items{
+   @apply flex ;
+}

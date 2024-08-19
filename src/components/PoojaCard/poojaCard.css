@@ -1,0 +1,16 @@
+.pooja-card img{
+    height: 300px;
+    width: 300px;
+
+}
+.pooja-card{
+    @apply border border-gray-900 bg-zinc-900 rounded-md flex flex-col justify-around items-center p-4 hover:shadow-lg hover:shadow-orange-400 w-80 h-[600px];
+}
+
+.pooja-card h3{
+    @apply text-orange-500 text-2xl
+}
+
+.pooja-card p{
+    @apply mb-10
+}
