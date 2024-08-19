@@ -1,5 +1,5 @@
 .pooja-list{
-    @apply text-white grid grid-cols-1 items-center lg:grid-cols-4 gap-14 my-10 mx-auto lg:ml-4  ; 
+    @apply text-white grid grid-cols-1 items-center lg:grid-cols-4 gap-14 my-10 mx-6 lg:ml-4  ; 
 }
 
 h1{
