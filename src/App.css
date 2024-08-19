@@ -4,7 +4,9 @@
 }
 
 .container{
-  background-image: url('./bgImage5.jpg');
+  background-image: url('https://image.lexica.art/full_webp/4221c653-221d-4757-904e-718b60b0cf42');
+  background-position: center;
+  filter: contrast(1.3);
   min-height:90vh;
   width: 100%;
 }
@@ -16,6 +18,7 @@
   image-rendering: optimizeSpeed;
   min-height: 65vh;
 }
+
 
 
   
@@ -49,21 +52,32 @@
 
 .info-section{
   @apply mt-20 w-[100%] font-extrabold flex flex-col text-wrap;
-  @apply backdrop-blur-[2px];
+  @apply backdrop-blur-[10px] p-10 lg:p-20 border rounded-sm;
 }
 
 .info-section-header{
- @apply text-3xl lg:text-6xl text-white  ;
+ @apply text-3xl lg:text-6xl text-white hover:text-gray-800 mb-10 lg:mb-20 ;
 }
 
 .info-section span{
-  @apply rounded-xl bg-gray-100 leading-10 text-3xl px-2 lg:text-6xl;
+  @apply rounded-xl bg-gray-100 leading-10 text-3xl px-2 lg:text-6xl hover:bg-gray-800;
   color: #de8b2c;
   
 }
 
+.info-section-contianer{
+  @apply  grid grid-cols-2 justify-around;
+}
+
+.info-section-image{
+  @apply w-fit
+}
+
 .info-feature{
   @apply flex text-white font-normal ;
+}
+.info-feature-section{
+  @apply  flex flex-col justify-center pl-20;
 }
 .info-feature svg{
   margin-right: 5px;

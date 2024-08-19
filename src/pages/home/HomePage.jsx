@@ -132,30 +132,39 @@ function HomePage() {
             Check your <span>horoscope</span> now{" "}
           </h1>
         </div>
+        
         <div className="info-section-contianer">
-        <div className="info-section-image"></div>
-        <div className="info-section-body">
-          {/* features section  */}
-          <div className="info-feature-section">
-            <div className="info-feature">
-              {tickMark}
-              Believe in your spiritual self-awarness.
-            </div>
-            <div className="info-feature">
-              {tickMark}
-              Keep your head clear.
-            </div>
+        <div className="info-feature-section">
+              
+              <div className="info-feature">
+                {tickMark}
+                Believe in your spiritual self-awarness.
+                </div>
             <div className="info-feature">
               {tickMark}
               Keep your head clear.
-            </div>
+              </div>
             <div className="info-feature">
               {tickMark}
-              Keep your head clear.
+              Open youself to spiritualism.
+              </div>
+            <div className="info-feature">
+              {tickMark}
+              Know what's coming ahead for you.
+              </div>
             </div>
-          </div>
+          
+          <div className="info-section-image">
+            <img src="https://img.freepik.com/free-vector/zodiac-wheel-space-background_23-2148181763.jpg?t=st=1724084135~exp=1724087735~hmac=2a8dfe5cddedfe2c6b30f3b9fa7e712123fe5cc840f8c1cd4c0e9ce0105e78a7&w=740" width={"300px"}>
+            </img>
+            </div>
+          
+
+          
+          
+            
         </div>
-        </div>
+        
        
       </div>
     </main>
