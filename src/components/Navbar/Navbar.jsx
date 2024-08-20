@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <header className="header">
-      <NavLink to="/cosmique-template-app"><h1 className="Navbar-logo">
+      <NavLink to="/cosmique-template-app/"><h1 className="Navbar-logo">
        Cosmique
       </h1></NavLink>
       <ul className='Navbar-items '>
