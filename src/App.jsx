@@ -23,8 +23,8 @@ function App() {
       <Router>
       <Navbar />
       <Routes>
-      <Route path="https://ankitborgohain.github.io/"  element={<HomePage />} />
-      <Route path="/"  element={<HomePage />} />
+      <Route path="/cosmique-template-app"  element={<HomePage />} />
+      <Route path="/ankitborgohain.github.io/"  element={<HomePage />} />
       <Route path="/poojalist" element={<PoojaList />} />
       </Routes>
       
