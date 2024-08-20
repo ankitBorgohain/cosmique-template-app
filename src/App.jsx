@@ -25,7 +25,7 @@ function App() {
       <Routes>
       <Route path="/cosmique-template-app"  element={<HomePage />} />
       <Route path="/ankitborgohain.github.io/"  element={<HomePage />} />
-      <Route path="/poojalist" element={<PoojaList />} />
+      <Route path="/cosmique-template-app/poojalist" element={<PoojaList />} />
       </Routes>
       
         
